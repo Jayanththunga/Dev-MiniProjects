@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+/* Topbar ----------------------------------- */
+
+#topBar{
+    /* background-color: #134B70; */
+    width: 100%;
+    height: 8vh;
+}
+
+
+/* Body ------------------------------------- */
+
+#tagLine{
+    margin: 1% 10%;
+    width: 100%;
+    max-width: 80%;
+}
+
+#container{
+    /* border: 10px solid blue; */
+    /* background-color: red; */
+    width: auto;
+    height: auto;
+}
+
+#tagLine{
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid black;
+    padding: 10px; */
+}
+
+#boxes{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.box{
+    min-width: 25%;
+    max-width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1%;
+    background-color: #eeeeee;
+    padding: 1%;
+    border-bottom: 1px solid #201E43;
+}
+
+.box:hover{
+    background-color: rgb(247, 247, 247);
+    border-bottom: 2px solid #201E43;
+}
+
+.project-title{
+    max-width: max-content;
+    color: #201E43;
+    padding: 2% 1%;
+    font-size: 1.5em;
+    border-bottom: 1px solid #201E43;
+
+}
+
+.project-description{
+    max-width: max-content;
+    color: #134B70;
+    padding: 2% 1%;
+    font-size: 1em;
+    border-bottom: 1px solid #201E43;
+
+}
+
+.project-description:hover{
+    font-size: 1.1em;
+}
+
+.project-link{
+    max-width: max-content;
+    margin-top: 3%;
+    padding: 0.5% 2%;
+    text-decoration: none;
+    background-color: #201e43ea;
+    color: #f9f9f9;
+}
+
+.project-link:hover{
+    padding: 1% 2.5%;
+    background-color: #201e43;
+}
+
+/* Footer ------------------------------------- */
+#footer{
+    /* background-color: #134B70; */
+    width: 100%;
+    height: 8vh;
+}
