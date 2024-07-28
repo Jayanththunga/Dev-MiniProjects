@@ -47,6 +47,7 @@ body{
 }
 
 .box{
+    max-height:max-content;
     min-width: 25%;
     max-width: 50vh;
     display: flex;
@@ -56,6 +57,7 @@ body{
     background-color: #eeeeee;
     padding: 1%;
     border-bottom: 1px solid #201E43;
+    /* margin-bottom: 3%; */
 }
 
 .box:hover{
