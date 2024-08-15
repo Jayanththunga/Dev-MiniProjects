@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home-button">
+        <a href="../index.html">Go Home</a>
+    </div>
+    <h1>Minesweeper</h1>
+    <div class="input-container">
+        <input type="number" id="boxLength" placeholder="Enter grid size N" min="1" value="12">
+        <input type="number" id="Bombs" placeholder="Enter No.of bombs" min="1" value="20">
+        <button id="generateGrid" class="btn-main">Start Game</button>
+        <div id="RemMineDisplay" class="lego"></div>
+        <div id="displayResult" class="lego"></div>
+        <div id="game-container">
+
+        </div>
+    </div>
+    <div id="gridContainer"></div>
+    <button id="NewGame" class="btn-main">Start New Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
