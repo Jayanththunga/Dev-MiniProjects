@@ -42,13 +42,12 @@ body{
     margin: 2%;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: start;
 }
 
 .box{
     max-height:max-content;
-    min-width: 25%;
-    max-width: 50vh;
+    width: 40vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
