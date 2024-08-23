@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>Weather App</h1>
+        </header>
+
+        <div class="input-section">
+            <input class="city-input" type="text" placeholder="Enter city name" title="cityName">
+            <button class="get-weather-btn" type="button">Get Weather</button>
+        </div>
+
+        <div class="weather-info">
+            <div class="weather-icon">
+                <img id="weather-image" src="Images/clouds.png" alt="Weather Icon">
+            </div>
+
+            <div class="city-name">
+                <span id="entered-city"></span>
+            </div>
+
+            <div>
+                <span id="weather-description"></span>
+            </div>
+
+            <div class="weather-details">
+                <div class="temperature-section">
+                    <div class="weather-item">
+                        <img src="Images/temperature.png" alt="Temperature Icon" class="weather-icon-img">
+                        <span id="temperature">Temperature --°C</span>
+                    </div>
+                    <div class="weather-item">
+                        <img src="Images/temperature.png" alt="Feels Like Icon" class="weather-icon-img">
+                        <span id="feels-like">Feeks Like --°C</span>
+                    </div>
+                </div>
+                <div class="weather-item">
+                    <img src="Images/humidity.png" alt="Humidity Icon" class="weather-icon-img">
+                    <span id="humidity">0% humidity</span>
+                </div>
+                <div class="weather-item">
+                    <img src="Images/wind.png" alt="Wind Speed Icon" class="weather-icon-img">
+                    <span id="wind-speed">Wind: -- km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
