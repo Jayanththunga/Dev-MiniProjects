@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.currency-converter {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 22px;
+}
+
+.amount input {
+    width: 80%;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.currency img {
+    width: 40px;
+    height: 25px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.currency select {
+    width: 67%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.convert-button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.convert-button:hover {
+    background-color: #555555;
+}
+
+.display-conversion {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333333;
+}
